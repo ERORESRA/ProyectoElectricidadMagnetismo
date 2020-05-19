@@ -1,0 +1,24 @@
+nav{
+    background-color: black;
+    text-align: justify;
+    color: white;
+    text-justify: auto;
+    
+}
+.BotonesNav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btnNav{
+    padding:16px 16px 16px 16px;
+    overflow:hidden;
+    text-decoration: none;
+    color:white;
+}
+
+.BotonesNav .btnNav:hover{
+    background-color: white;
+    color:black;
+}

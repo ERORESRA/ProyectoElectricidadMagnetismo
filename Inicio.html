@@ -5,18 +5,34 @@
     <meta charset="UTF-8">
         <title>ElectricidadYMagnetismo</title>
     
+    <link rel="stylesheet" href="CSS/stilo.css">
+
     </head>
    
 <body>
     <h1 style="text-align: center;color:brown">Electricidad y Magnetismo</h1>
     <br>
-    <p>Bienvenido al portal de nuestro proyecto de Electricidad y Magnetismo, aqui encontraras documentacion ademas
-        de resolucion de problemas por medio de nuestro solucionador, esperamos te interese :D . 
-
-    </p>
+    
+    <nav class="BotonesNav">
+       
+           <a class="btnNav" href="Inicio.html">Inicio</a>
+           <a class="btnNav" href="#">Solucionador</a>
+           <a class="btnNav" href="#">Participantes</a>
+       
+        
+    </nav>
     <h2 style="text-align: center;">Temas que encontraras</h2>
     <div style="text-align: center;background-color: coral;color: white;">
-        <h3>Potencial Electrico</h3>
+
+        
+            <h3 type="submit" onclick="Mostrar()" id="ocultarEvento" ><a>Potencial Electrico</a></h3>
+            <section id="caja" style="opacity: 0;">
+                <p id="textoMostrarPotencial" >
+                </p>
+            </section>
+        
+        
+
         <h3>Capacitancia</h3>
         <h3>Resistividad</h3>
         <h3>Circuitos con resistencias</h3>
@@ -25,9 +41,9 @@
     <footer style="background: grey">
         <p style="color: blackfont-family:consolas;text-align:center">Proyecto Electricidad y Magnetismo</p>
         <br>
-        <p style="color: blackfont-family:consolas;text-align:center">Bryan Pena Balderas y Erick O. Escarcega Ramirez</p>
+        <p style="color: blackfont-family:consolas;text-align:center">Bryan Pena Balderas</p>
         </footer>
         
-        
+        <script src="main.js"></script>
     </body>
 </html>
