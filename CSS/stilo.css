@@ -10,7 +10,9 @@ nav{
     align-items: center;
     display: flex;
 }
-
+.BotonesNav .tituloEl{
+    align-items:left;
+}
 .btnNav{
     padding:16px 16px 16px 16px;
     overflow:hidden;
@@ -19,6 +21,30 @@ nav{
 }
 
 .BotonesNav .btnNav:hover{
+    background-color:whitesmoke;
+    color: black;
+}
+body{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.textosInfo{
+    text-align: center;
+    background: #cb2d3e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.inputsDatos{
+    text-align: center;
     background-color: white;
-    color:black;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
